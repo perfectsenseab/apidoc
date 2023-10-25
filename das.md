@@ -4,6 +4,7 @@
 **URL:** `/das`  
 **Method:** `POST`  
 **Data Parameters:** 
+
 | key | type | required | description | allowed values |
 |-----|------|----------|-------------|----------------|
 |domainname|string||Search for single domain name||
