@@ -97,6 +97,7 @@
 |commonname|string|yes|Common Name||
 |sku|string|yes|SKU||
 |csr|string||Certificate Signing Request||
+|paymentmethod|string||Payment Method|cc|
 
 **Response:**
 ```
@@ -143,6 +144,7 @@
 |commonname|string|yes|Common Name||
 |sku|string|yes|SKU||
 |csr|string||Certificate Signing Request||
+|paymentmethod|string||Payment Method|cc|
 
 **Response:**
 ```

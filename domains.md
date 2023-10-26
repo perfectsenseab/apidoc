@@ -272,6 +272,7 @@
 |period|integer|yes|Registration period||
 |ns|string|yes|Name Servers of domain|Name Servers should be comma separated|
 |trustee|integer||Trustee services||
+|paymentmethod|string||Payment Method|cc|
 
 **Response:**
 ```
@@ -310,6 +311,7 @@
 |period|integer|yes|Registration period||
 |authcode|string||Authcode||
 |trustee|integer||Trustee services||
+|paymentmethod|string||Payment Method|cc|
 
 **Response:**
 ```
@@ -416,6 +418,7 @@
 |phone|string|yes|Phone number||
 |email|string|yes|Email||
 |period|integer|yes|Registration period||
+|paymentmethod|string||Payment Method|cc|
 
 **Response:**
 ```
@@ -445,6 +448,7 @@
 | key | type | required | description | allowed values |
 |-----|------|----------|-------------|----------------|
 |period|integer|yes|Registration period||
+|paymentmethod|string||Payment Method|cc|
 
 **Response:**
 ```
@@ -474,6 +478,7 @@
 | key | type | required | description | allowed values |
 |-----|------|----------|-------------|----------------|
 |period|integer|yes|Registration period||
+|paymentmethod|string||Payment Method|cc|
 
 **Response:**
 ```
